@@ -1,0 +1,12 @@
+Upgrade last mikrotik
+
+/tool fetch url=https://curl.haxx.se/ca/cacert.pem
+/certificate import file-name=cacert.pem passphrase=””
+
+IP | DNS | Static | +
+Add 2 Static DNS Entries for 
+cloudflare-dns.com 104.16.248.249
+cloudflare-dns.com 104.16.249.249
+
+Add to DoH Server :
+https://cloudflare-dns.com/dns-query
