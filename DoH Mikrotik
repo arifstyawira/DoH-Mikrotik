@@ -7,6 +7,9 @@ IP | DNS | Static | +
 Add 2 Static DNS Entries for 
 cloudflare-dns.com 104.16.248.249
 cloudflare-dns.com 104.16.249.249
+dns.google 8.8.8.8
+dns.google 8.8.4.4
 
 Add to DoH Server :
 https://cloudflare-dns.com/dns-query
+https://dns.google/dns-query
